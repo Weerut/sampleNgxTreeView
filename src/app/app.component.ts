@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { TreeviewItem } from 'ngx-treeview';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    template:`<ngx-book></ngx-book>`
 })
 export class AppComponent {
-  title = 'app works!';
+    title = 'app works!';
+
 }
